@@ -1,10 +1,9 @@
 #!/usr/bin/perl -w
 
-# IMPORTANT
-# RENAME to dolt.pl!
-# This is version 3.0
-
 # Change Log
+
+# 31 March 2013
+# Move to Github
 
 # 26 Sep 2001
 # Code clean up
@@ -30,8 +29,8 @@ use Getopt::Std;
 getopts("s:o:i:l:q");
 
 # Define any global variables:
-my $version = "3-pre1";
-my $creationdate = "September 2001";
+my $version = "3";
+my $creationdate = "March 2013";
 
 # Now lets make it clear where the output of the program begins on
 # screen, but only if quiet mode is off. By making use of $main::opt_q
